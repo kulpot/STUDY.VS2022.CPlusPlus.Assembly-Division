@@ -11,9 +11,9 @@ doit proc
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	; 8 * 4 
 
-	;mov eax, 8	
+	;mov eax, 8		; eax is accumalator registry
 	;mov ebx, 4
-	;mov edx, 21323	; edx will fill the overflow	
+	;mov edx, 21323	; edx will fill the overflow	; edx is a data registry
 	; mul eax, ebx	; syntacs error: mul only needs 1 argument	
 	;mul ebx
 	;mul 4
