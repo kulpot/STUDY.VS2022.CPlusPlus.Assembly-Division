@@ -9,6 +9,15 @@
 doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
+	; 9 / 2
+
+	mov eax, 9
+	mov ebx, 2
+	div ebx
+	
+	
+	
+	
 	; 8 * 4 
 
 	;mov eax, 8		; eax is accumalator registry
@@ -18,9 +27,9 @@ doit proc
 	;mul ebx
 	;mul 4
 	
-	mov eax, 0FFFFFFFFh
-	mov ebx, 0FFFFFFFFh
-	mul ebx
+	;mov eax, 0FFFFFFFFh
+	;mov ebx, 0FFFFFFFFh
+	;mul ebx
 
 	; the went bought. some I and, food to store	; wrong syntacs, semantics, parsing
 	; I went to the store, and I bought some food. ;correct semantics, parse
