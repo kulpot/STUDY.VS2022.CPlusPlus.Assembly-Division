@@ -11,7 +11,7 @@ doit proc
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	; 9 / 2
 
-	mov eax, 9
+	mov eax, 9		; eax has the answer, edx has the remainder
 	mov ebx, 2
 	div ebx
 	
